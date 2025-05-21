@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'vistas/Inicio.dart';
 import 'vistas/Carga.dart';
+import 'vistas/Error.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -11,8 +12,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Carga();
+    return Error();
   }
 }
+
+
 
 

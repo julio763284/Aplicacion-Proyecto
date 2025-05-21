@@ -61,6 +61,8 @@ flutter:
   assets:
     - assets/universo.jpg
     - assets/Cargando.gif
+    - assets/ERROR.jpg
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
