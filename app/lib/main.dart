@@ -12,10 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Error();
+    return MaterialApp(
+      home: Carga(),
+    );
   }
 }
-
-
-
-

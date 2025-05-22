@@ -22,12 +22,12 @@ class Inicio extends StatelessWidget {
             Center(
               child: Container(
                 width: 200,
-                height: 50, 
+                height: 50,
                 child: ElevatedButton(
                   onPressed: () {
                     print('¡Botón presionado!');
                   },
-                  child: Text('Presionar'),
+                  child: Text('Iniciar'),
                 ),
               ),
             ),
@@ -37,6 +37,3 @@ class Inicio extends StatelessWidget {
     );
   }
 }
-
-
-
